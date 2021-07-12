@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+**/__pycache__/**
+*.py[cod]
+
+# IDE Cruft
+**/.git/**
+**/.idea/**
+**/.vscode/**
+
+# Distribution / packaging
+.Python
+**/env/**
+**/bin/**
+**/build/**
+**/develop-eggs/**
+**/dist/**
+**/eggs/**
+**/lib/**
+**/lib64/**
+**/parts/**
+**/sdist/**
+**/var/**
+**/*.egg-info/**
+.installed.cfg
+*.egg
+
+# robot logs. 
+log.html
+report.html
+output.xml
+selenium-screenshot-*.png
