@@ -1,6 +1,5 @@
 import datetime
 import random
-import string
 
 
 def generate_random_name():

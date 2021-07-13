@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation    This is a test suite for the spring cloud microservices going through the API Gateway
 Resource    ../Resources/API/CurrencyExchange.robot
-Suite Setup	Create Session	api_session	http://localhost:8765
+Suite Setup	Create Session	api_gateway	http://localhost:8765
 
 # Running the test
 # robot -d results tests/CloudMicroservice.robot
@@ -19,4 +19,5 @@ Get Currency Exchange Rates
 Convert Multiple Currencies
     [Tags]    API
     [Documentation]    Calls the currency conversion microservice to convert currencies
-    Convert Currencies
+    Convert Currencies Using Rest Template
+    Convert Currencies Using Feign
